@@ -11,7 +11,7 @@ function Clock() {
         if(val<10) {
             return '0'
         } else {
-            return '0'
+            return ''
         }
     }
 
