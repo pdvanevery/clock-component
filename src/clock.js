@@ -40,7 +40,11 @@ function Clock() {
     }
 
   return (
-    <div>clock</div>
+    <div className='clock'>
+        <div className='screen'>
+            <h1 className='time'>{time}</h1>
+        </div>
+    </div>
   )
 }
 
